@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DAWREM D monogram with R inside">
+  <defs>
+    <linearGradient id="dawrem-mark-r-foil" x1="42" y1="31" x2="89" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6F4815"/>
+      <stop offset="0.42" stop-color="#F1DF9B"/>
+      <stop offset="1" stop-color="#6F4815"/>
+    </linearGradient>
+  </defs>
+  <path d="M25 13H58C89 13 110 32.2 110 60C110 87.8 89 107 58 107H25V13Z" stroke="#B89132" stroke-width="1.25" stroke-linejoin="round" opacity="0.48"/>
+  <path d="M31 21V99H57.5C83.2 99 100.5 83 100.5 60C100.5 37 83.2 21 57.5 21H31Z" stroke="#151312" stroke-width="7.5" stroke-linejoin="round"/>
+  <path d="M39.5 29.5V90.5H57.5C77.5 90.5 91.5 78 91.5 60C91.5 42 77.5 29.5 57.5 29.5H39.5Z" stroke="#B89132" stroke-width="1.2" stroke-linejoin="round" opacity="0.72"/>
+  <path d="M50 40V82" stroke="url(#dawrem-mark-r-foil)" stroke-width="6.8" stroke-linecap="square"/>
+  <path d="M50 40H64.5C75.2 40 82.5 46.2 82.5 55.4C82.5 64.8 75.2 70.5 64.5 70.5H50" stroke="url(#dawrem-mark-r-foil)" stroke-width="6.8" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="M63.5 70.5L84.5 88" stroke="url(#dawrem-mark-r-foil)" stroke-width="6.8" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="M30 13L41 2M83 103L95 91" stroke="#F1DF9B" stroke-width="1.35" stroke-linecap="round" opacity="0.68"/>
+  <path d="M26 107L37 96M98 26L108 16" stroke="#151312" stroke-width="1" stroke-linecap="round" opacity="0.24"/>
+</svg>

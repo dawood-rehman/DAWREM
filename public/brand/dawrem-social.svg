@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DAWREM luxury D monogram social card with R inside">
+  <rect width="1200" height="630" fill="#151312"/>
+  <rect x="42" y="42" width="1116" height="546" stroke="#D6B968" stroke-width="1.5" opacity="0.38"/>
+  <defs>
+    <linearGradient id="dawrem-social-r-foil" x1="555" y1="158" x2="673" y2="301" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A97D25"/>
+      <stop offset="0.42" stop-color="#FFF3B8"/>
+      <stop offset="1" stop-color="#A97D25"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(450 50) scale(2.5)">
+    <path d="M25 13H58C89 13 110 32.2 110 60C110 87.8 89 107 58 107H25V13Z" stroke="#D6B968" stroke-width="1.25" stroke-linejoin="round" opacity="0.52"/>
+    <path d="M31 21V99H57.5C83.2 99 100.5 83 100.5 60C100.5 37 83.2 21 57.5 21H31Z" stroke="#FAF7F2" stroke-width="7.5" stroke-linejoin="round"/>
+    <path d="M39.5 29.5V90.5H57.5C77.5 90.5 91.5 78 91.5 60C91.5 42 77.5 29.5 57.5 29.5H39.5Z" stroke="#D6B968" stroke-width="1.2" stroke-linejoin="round" opacity="0.72"/>
+    <path d="M50 40V82" stroke="url(#dawrem-social-r-foil)" stroke-width="6.8" stroke-linecap="square"/>
+    <path d="M50 40H64.5C75.2 40 82.5 46.2 82.5 55.4C82.5 64.8 75.2 70.5 64.5 70.5H50" stroke="url(#dawrem-social-r-foil)" stroke-width="6.8" stroke-linecap="square" stroke-linejoin="round"/>
+    <path d="M63.5 70.5L84.5 88" stroke="url(#dawrem-social-r-foil)" stroke-width="6.8" stroke-linecap="square" stroke-linejoin="round"/>
+    <path d="M30 13L41 2M83 103L95 91" stroke="#FFF3B8" stroke-width="1.35" stroke-linecap="round" opacity="0.68"/>
+  </g>
+  <text x="600" y="424" text-anchor="middle" fill="#FAF7F2" font-family="Playfair Display, Cormorant Garamond, Georgia, serif" font-size="90" font-weight="600">DAWREM</text>
+  <path d="M462 468H738" stroke="#D6B968" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="600" y="522" text-anchor="middle" fill="#D6B968" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600">FUTURE HEIRLOOM FASHION</text>
+</svg>

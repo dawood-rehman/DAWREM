@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js / React build output
+.next/
+out/
+dist/
+build/
+.turbo/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Deployment / hosting
+.vercel/
+.netlify/
+
+# Logs and local process output
+logs/
+*.log
+*.err
+*.out
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+next-dev*.log
+next-dev*.err
+next-dev*.out
+codex-dev*.err
+codex-dev*.out
+.codex-dev*.err
+.codex-dev*.out
+
+# Test / coverage output
+coverage/
+test-results/
+playwright-report/
+.nyc_output/
+
+# Local uploads and generated media
+public/uploads/
+public/temp/
+tmp/
+temp/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Secrets / certificates
+*.pem
+*.key
+*.crt
