@@ -31,6 +31,8 @@ export interface IUser extends Document {
   phone?: string;
   loyaltyPoints: number;
   tags: string[];
+  resetPasswordToken?: string;
+  resetPasswordExpires?: Date;
   emailPreferences: {
     orderUpdates: boolean;
     promotions: boolean;
@@ -86,6 +88,8 @@ const UserSchema = new Schema<IUser>(
     phone: { type: String },
     loyaltyPoints: { type: Number, default: 0 },
     tags: [{ type: String }],
+    resetPasswordToken: { type: String, select: false },
+    resetPasswordExpires: { type: Date, select: false },
     emailPreferences: {
       orderUpdates: { type: Boolean, default: true },
       promotions: { type: Boolean, default: true },
@@ -98,6 +102,7 @@ const UserSchema = new Schema<IUser>(
 
 UserSchema.index({ role: 1 });
 UserSchema.index({ createdAt: -1 });
+UserSchema.index({ resetPasswordToken: 1 }, { sparse: true });
 
 export default mongoose.models.User ||
   mongoose.model<IUser>("User", UserSchema);

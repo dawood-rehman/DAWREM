@@ -102,6 +102,40 @@ export async function sendWelcomeEmail(
   });
 }
 
+export async function sendPasswordResetEmail(
+  to: string,
+  name: string,
+  resetUrl: string
+) {
+  const content = `
+    <h2 style="color:#6B2737;font-family:Georgia,serif;font-size:22px;margin:0 0 16px;">
+      Reset your password
+    </h2>
+    <p style="color:#333;font-size:15px;line-height:1.7;margin:0 0 18px;">
+      Hi ${name}, we received a request to reset the password for your ${BRAND_NAME} account.
+    </p>
+    <p style="color:#333;font-size:15px;line-height:1.7;margin:0 0 28px;">
+      Use the secure link below to choose a new password. This link expires in 30 minutes.
+    </p>
+    <div style="text-align:center;margin:28px 0;">
+      <a href="${resetUrl}"
+        style="background:#6B2737;color:#FAF7F2;padding:14px 34px;text-decoration:none;font-size:13px;letter-spacing:2px;display:inline-block;font-family:Georgia,serif;">
+        RESET PASSWORD
+      </a>
+    </div>
+    <p style="color:#666;font-size:13px;line-height:1.7;margin:24px 0 0;">
+      If you did not request this change, you can safely ignore this email. Your existing password will remain active.
+    </p>
+  `;
+
+  await transporter.sendMail({
+    from: process.env.EMAIL_FROM,
+    to,
+    subject: `Reset your password - ${BRAND_NAME}`,
+    html: wrapEmail(content, "Reset your password securely"),
+  });
+}
+
 export async function sendOrderConfirmationEmail(
   to: string,
   order: {
